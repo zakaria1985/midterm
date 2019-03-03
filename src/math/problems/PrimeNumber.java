@@ -12,7 +12,24 @@ public class PrimeNumber {
 		 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
 		 *
 		 */
+		int counter = 2;
+		int numbers = 1000000;
+
+
+		for (i = 2; i <= 100; i++) {
+			if (i == 2) {
+				System.out.println(i);
+				counter++;
+			} else {
+				if (isPrime(i)) {
+					System.out.println(i);
+
+
+				}
+			}
+
+		}
 
 	}
-
+	system.out.println("total prime number is" + number+ " is"+ counter);
 }
